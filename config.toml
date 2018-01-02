@@ -1,0 +1,4 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Coreboot Documentation"
+theme = "docdock"

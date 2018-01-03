@@ -2,3 +2,16 @@ baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "Coreboot Documentation"
 theme = "docdock"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+editURL = "https://review.coreboot.org/coreboot/Documentation/"
+showVisitedLinks = true # default is false
+themeStyle = "original" # "original" or "flex" # default "original"
+themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
